@@ -5,7 +5,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.mapreduce.Mapper;
 
-public class MaxTemeratureMapper extends Mapper<LongWritable, Text, Text, IntWritable {
+public class MaxTemeratureMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 
 	private static final int MISSING = 9999;
 	
